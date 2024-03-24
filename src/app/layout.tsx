@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+// Internal Imports
+import Navbar from "./ui/components/Navbar";
+import Footer from "./ui/components/Footer";
+
+// external imports
+import { ChakraProvider, Flex, Box } from "@chakra-ui/react";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +23,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <ChakraProvider>
+          <Box minHeight="100vh" display="flex" flexDirection="column">
+            <Navbar />
+            {children}
+            <Footer />
+          </Box>
+        </ChakraProvider>
+      </body>
     </html>
   );
 }
