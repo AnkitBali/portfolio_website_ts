@@ -397,8 +397,9 @@ const TechStack: React.FC = () => {
             <button className="btn hover:bg-white bg-transparent border-none shadow-transparent ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="80px"
-                height="80px"
+                // width="80px"
+                // height="80px"
+                className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
                 viewBox="0 0 256 361"
               >
                 <rect width="256" height="361" fill="none" />
@@ -426,8 +427,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 361"
             >
               <rect width="256" height="361" fill="none" />
@@ -454,8 +456,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 256"
             >
               <rect width="256" height="256" fill="none" />
@@ -472,8 +475,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 256"
             >
               <rect width="256" height="256" fill="none" />
@@ -490,8 +494,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -505,8 +510,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -548,7 +554,9 @@ const TechStack: React.FC = () => {
             </svg>
           </GridItem>
         </Grid>
-        <Spacer mt={"50px"} />
+        <Spacer
+          mt={{ base: "50px", sm: "50px", md: "70px", lg: "80px", xl: "100px" }}
+        />
         <Grid
           templateRows={{
             base: "repeat(2, 1fr)",
@@ -569,8 +577,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 154"
             >
               <rect width="256" height="154" fill="none" />
@@ -597,6 +606,7 @@ const TechStack: React.FC = () => {
             <Image
               height={80}
               width={80}
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               src={"/daisy_ui.png"}
               alt={""}
             ></Image>
@@ -618,8 +628,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -647,8 +658,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -669,8 +681,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -681,8 +694,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -693,7 +707,9 @@ const TechStack: React.FC = () => {
             </svg>
           </GridItem>
         </Grid>
-        <Spacer mt={"50px"} />
+        <Spacer
+          mt={{ base: "50px", sm: "50px", md: "70px", lg: "80px", xl: "100px" }}
+        />
         <Grid
           templateRows={{
             base: "repeat(2, 1fr)",
@@ -714,8 +730,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 256"
             >
               <rect width="256" height="256" fill="none" />
@@ -732,8 +749,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 512 314"
             >
               <rect width="512" height="314" fill="none" />
@@ -896,8 +914,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -917,8 +936,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 24 24"
             >
               <rect width="24" height="24" fill="none" />
@@ -939,8 +959,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -954,8 +975,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 512 165"
             >
               <rect width="512" height="165" fill="none" />
@@ -966,7 +988,9 @@ const TechStack: React.FC = () => {
             </svg>
           </GridItem>
         </Grid>
-        <Spacer mt={"50px"} />
+        <Spacer
+          mt={{ base: "50px", sm: "50px", md: "70px", lg: "80px", xl: "100px" }}
+        />
         <Grid
           templateRows={{
             base: "repeat(2, 1fr)",
@@ -987,8 +1011,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 256"
             >
               <rect width="256" height="256" fill="none" />
@@ -1002,8 +1027,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 226"
             >
               <rect width="256" height="226" fill="none" />
@@ -1026,8 +1052,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -1041,8 +1068,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
@@ -1060,8 +1088,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 256 231"
             >
               <rect width="256" height="231" fill="none" />
@@ -1094,8 +1123,9 @@ const TechStack: React.FC = () => {
           <GridItem>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80px"
-              height="80px"
+              // width="80px"
+              // height="80px"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] xl:h-[90px] xl:w-[90px]"
               viewBox="0 0 128 128"
             >
               <rect width="128" height="128" fill="none" />
