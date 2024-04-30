@@ -3,8 +3,10 @@
 import React from "react";
 import { Box, Flex, Text, Spacer } from "@chakra-ui/react";
 import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
 
 const TopBanner: React.FC = () => {
+  // return <></>;
   return (
     <>
       <Flex
@@ -25,48 +27,57 @@ const TopBanner: React.FC = () => {
           // alignContent={{ base: 'center', sm: 'left', md: 'left' }}
           // textAlign={{ base: 'center', md: 'left' }}
         >
-          <Box
-          // mt={'150px'}
-          // width={{base: '300px', sm: '300px', md: '500px'}}
-          >
-            <Flex
-              direction={{ base: "column", md: "column" }}
-              // align={{base: 'center', md: 'left'}}
+          <AnimatePresence mode="wait">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -50, opacity: 0 }}
+              transition={{ duration: 0.5 }}
             >
-              <Text
-                fontWeight={"bold"}
-                fontSize={{ base: "31px", sm: "35px", md: "35px" }}
-                color="#42446E"
+              <Box
+              // mt={'150px'}
+              // width={{base: '300px', sm: '300px', md: '500px'}}
               >
-                Hi 👋,
-              </Text>
-              <Text
-                fontWeight={"bold"}
-                fontSize={{ base: "31px", sm: "35px", md: "35px" }}
-                color="#42446E"
-              >
-                My name is
-              </Text>
-            </Flex>
-            <Text
-              fontSize={{ base: "31px", sm: "35px", md: "35px" }}
-              bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 40%)"
-              bgClip="text"
-              fontWeight="bold"
-              ml={{ base: "0px", md: "0px" }}
-            >
-              Ankit Bali
-            </Text>
-            <Text
-              fontWeight={"bold"}
-              fontSize={{ base: "31px", sm: "35px", md: "35px" }}
-              color="#42446E"
-            >
-              I build things for web
-              {/* and mobile // for case when I start to build apps as well */}
-              <br />
-            </Text>
-          </Box>
+                <Flex
+                  direction={{ base: "column", md: "column" }}
+                  // align={{base: 'center', md: 'left'}}
+                >
+                  <Text
+                    fontWeight={"bold"}
+                    fontSize={{ base: "31px", sm: "35px", md: "35px" }}
+                    color="#42446E"
+                  >
+                    Hi 👋,
+                  </Text>
+                  <Text
+                    fontWeight={"bold"}
+                    fontSize={{ base: "31px", sm: "35px", md: "35px" }}
+                    color="#42446E"
+                  >
+                    My name is
+                  </Text>
+                </Flex>
+                <Text
+                  fontSize={{ base: "31px", sm: "35px", md: "35px" }}
+                  bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 40%)"
+                  bgClip="text"
+                  fontWeight="bold"
+                  ml={{ base: "0px", md: "0px" }}
+                >
+                  Ankit Bali
+                </Text>
+                <Text
+                  fontWeight={"bold"}
+                  fontSize={{ base: "31px", sm: "35px", md: "35px" }}
+                  color="#42446E"
+                >
+                  I build things for web
+                  {/* and mobile // for case when I start to build apps as well */}
+                  <br />
+                </Text>
+              </Box>
+            </motion.div>
+          </AnimatePresence>
         </Box>
         {/* <Spacer /> */}
         <Box
