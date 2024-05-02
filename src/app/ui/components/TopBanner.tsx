@@ -27,12 +27,14 @@ const TopBanner: React.FC = () => {
           // alignContent={{ base: 'center', sm: 'left', md: 'left' }}
           // textAlign={{ base: 'center', md: 'left' }}
         >
-          <AnimatePresence mode="wait">
+          <AnimatePresence
+          // mode="wait"
+          >
             <motion.div
-              initial={{ y: 50, opacity: 0 }}
+              initial={{ y: 20, opacity: 0.1 }}
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -50, opacity: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
             >
               <Box
               // mt={'150px'}
