@@ -18,21 +18,21 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const details = [
   {
-    title1: "React Developer",
+    title1: "Software Developer",
     title2: "",
     company: "Isha Foundation",
     location: "Coimbatore",
-    date1: "June 2023 -",
+    date1: "June 2022 -",
     date2: "Feb 2024",
   },
-  {
-    title1: "Technical Analyst,",
-    title2: "UI/UX Developer",
-    company: "Isha Foundation",
-    location: "Coimbatore",
-    date1: "July 2022 -",
-    date2: "June 2023",
-  },
+  // {
+  //   title1: "Technical Analyst,",
+  //   title2: "UI/UX Developer",
+  //   company: "Isha Foundation",
+  //   location: "Coimbatore",
+  //   date1: "July 2022 -",
+  //   date2: "June 2023",
+  // },
   {
     title1: "Back-end Developer",
     title2: "",
