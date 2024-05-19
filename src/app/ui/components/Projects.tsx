@@ -21,6 +21,15 @@ const projects = [
     liveLink: "https://free-tn-temples.netlify.app/",
     githubLink: "https://github.com/AnkitBali/FreeTNTemples-Website",
   },
+  {
+    title: "Next.Js Dashboard with CRUD Operations",
+    description:
+      "ID: user@nextmail.com, Password: 123456, Use this login id, password to log into the dashboard and perform CRUD operations in the Invoices table.",
+
+    image: "/nextjs-dashboard.png",
+    liveLink: "https://dashboard-app-khaki-two.vercel.app/login",
+    githubLink: "https://github.com/AnkitBali/dashboard-app",
+  },
   // {
   //   title: "Amita Care Website",
   //   description:
