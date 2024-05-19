@@ -14,7 +14,7 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Free TN Temples Website",
+    title: "Free Tamil Nadu's Temples Website",
     description:
       "This website, developed using Next.js and React.js, stands as a digital cornerstone supporting the global movement for the freedom of Tamil Nadu temples. Through the utilization of advanced JavaScript techniques and a diverse range of meticulously crafted components, it aims to raise awareness and preserve the rich cultural heritage. Explore the various features thoughtfully integrated to champion this noble cause and foster community engagement.",
     image: "/freeTNT.png",
@@ -22,9 +22,9 @@ const projects = [
     githubLink: "https://github.com/AnkitBali/FreeTNTemples-Website",
   },
   {
-    title: "Next.Js Dashboard with CRUD Operations",
+    title: "Dashboard App with CRUD Operations",
     description:
-      "ID: user@nextmail.com, Password: 123456, Use this login id, password to login to the dashboard and perform CRUD operations in the Invoices table.",
+      " This app is designed to help users manage their invoices. It is built using Next.js and Chakra UI, and uses a PostgreSQL database. The user can login with their login ID: user@nextmail.com, Password: 123456, and proceed to login to the dashboard and perform CRUD operations in the Invoices table.",
 
     image: "/nextjs-dashboard.png",
     liveLink: "https://dashboard-app-khaki-two.vercel.app/login",
