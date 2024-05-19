@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Next.Js Dashboard with CRUD Operations",
     description:
-      "ID: user@nextmail.com, Password: 123456, Use this login id, password to log into the dashboard and perform CRUD operations in the Invoices table.",
+      "ID: user@nextmail.com, Password: 123456, Use this login id, password to login to the dashboard and perform CRUD operations in the Invoices table.",
 
     image: "/nextjs-dashboard.png",
     liveLink: "https://dashboard-app-khaki-two.vercel.app/login",
